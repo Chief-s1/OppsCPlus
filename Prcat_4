@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+namespace one
+{
+void tu()
+{
+cout<<"Hello\n";
+}
+}
+namespace two
+{
+void tu()
+{
+cout<<"World\n";
+}
+}
+ 
+
+//using namespace one;
+using namespace two;
+int main(void)
+{
+bool a;
+tu();
+//cout<<sizeof(a)<<endl;
+}
